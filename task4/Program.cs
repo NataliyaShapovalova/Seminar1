@@ -15,3 +15,4 @@ if (max<c)
 {
     max=c;
 }
+System.Console.WriteLine($"  максимальное число {max}");
