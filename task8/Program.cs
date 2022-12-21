@@ -1,16 +1,15 @@
 ﻿System.Console.WriteLine("Введите число");
 int N=Convert.ToInt32(Console.ReadLine());
 int i=1;
-if (N<=1)
+
+for (int i = 1; i < N; i++)
 {
-    System.Console.WriteLine("Введите число больше чем 1");
+   if (i%2==0)
+   {
+    System.Console.Write($"Все четные числа От 1 до+{N}"i+"");
+
+   } 
 }
-else
-{
-    System.Console.WriteLine("Все числа от 1 до"+N);
-    while (i<N+1)
-    {
-        System.Console.Write (i+",");
-        i++
-    }
-}
+
+
+        
